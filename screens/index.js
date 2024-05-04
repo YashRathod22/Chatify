@@ -1,0 +1,10 @@
+export {default as HomeScreen} from "./HomeScreen";
+export {default as LoginScreen} from "./LoginScreen"
+export {default as SignupScreen} from "./SignupScreen"
+export {default as SplashScreen} from "./SplashScreen"
+export {default as AddToChatScreen} from "./AddToChatScreen"
+export {default as ChatScreen} from "./ChatScreen"
+export {default as ProfileScreen} from "./ProfileScreen"
+export {default as PrivacyPolicyScreen} from "./PrivacyPolicyScreen"
+export {default as AddFriendScreen} from "./AddFriendScreen"
+export {default as FriendsChatScreen} from "./FriendsChatScreen"
