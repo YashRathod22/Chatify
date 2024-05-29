@@ -28,6 +28,8 @@ const SplashScreen = () => {
                     setTimeout(() => {
                         navigation.replace("HomeScreen")
                     }, 2000);
+                }).catch((e)=>{
+                    console.log(e);
                 })
             } else {
                 navigation.replace("LoginScreen")

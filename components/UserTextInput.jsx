@@ -1,7 +1,9 @@
 import { View, Text, TextInput, TouchableOpacity } from 'react-native'
 import React, { useLayoutEffect, useState } from 'react'
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
-import Entypo from 'react-native-vector-icons/Entypo'
+// import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
+// import Entypo from 'react-native-vector-icons/Entypo'
+import { MaterialIcons } from '@expo/vector-icons';
+import { Entypo } from '@expo/vector-icons';
 
 const UserTextInput = ({placeholder, isPass, setStateValue, setGetEmailValidationStatus}) => {
   const [value, setValue] = useState('');
